@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+    background: #4dabf7;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    font-size: 35px;
+    text-align: center;
+}
+
+main{
+    padding: 25px;
+    display: inline;
+}
+
+div{
+    padding: 8px;
+    text-align: center;
+}
+
+label{
+    font-size: 25px;
+    
+}
+
+input{
+    align-items: center;
+    background: #2793eb;
+    border-radius: 8px;
+    border-color: #2793eb;
+    box-shadow: none;
+}
+
+main >section > div > img{
+    float: right;
+    width: 1000px;
+    height: 500px;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration-line: none;
+} 
+
+a:hover{
+    color: #114f81b0;
+}
